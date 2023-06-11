@@ -1,0 +1,19 @@
+--no-abort-on-error
+--concurrent-fragments 4
+--no-overwrites
+--no-post-overwrites
+
+--mtime
+--windows-filenames
+
+--extract-audio
+--audio-format m4a
+--no-keep-video
+--embed-thumbnail
+--embed-chapters
+--xattrs
+--write-thumbnail
+
+--yes-playlist
+
+--progress-template "download-title:%(info.id)s - %(progress.eta)s  %(autonumber)s / %(n_entries)s"
